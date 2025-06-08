@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Botpress Chat</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', function () {
+        window.botpressWebChat.init({
+          botId: "a480f213-6c25-443f-aeb6-c7e7324c5c2f",
+          clientId: "604fce3d-7fa6-4ebf-ac90-ac538b2aef11",
+          containerWidth: "100%",
+          layoutWidth: "100%",
+          showCloseButton: true,
+          enableReset: true,
+          hideWidget: false
+        });
+      });
+    </script>
+  </head>
+  <body></body>
+</html>
